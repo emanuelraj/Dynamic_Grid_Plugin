@@ -1,4 +1,9 @@
- $.fn.dynamicGrid = function(parameters) {
+/*
+* Dynamic Grid
+* Created By Allen Emanuel Raj D
+*/
+
+$.fn.dynamicGrid = function(parameters) {
      this.parent().append('<table id="' + this.attr("id") + '" class="wizard-table"></table>');
      //this = this.siblings();
      var deletedIds = [];
